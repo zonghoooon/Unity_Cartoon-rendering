@@ -1,0 +1,868 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.3f1 (af2e63e8f9bd) revision 11480675'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 16217 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Hoon/Toon_shader
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+9361
+Successfully changed project path to: C:/Users/Hoon/Toon_shader
+C:/Users/Hoon/Toon_shader
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 91.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.3f1 (af2e63e8f9bd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Hoon/Toon_shader/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1b84)
+    Vendor:   NVIDIA
+    VRAM:     2988 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017337 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 75.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006979 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.877 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2878ms)
+		BeginReloadAssembly (1995ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1898ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (469.0 KB). Loaded Objects now: 3963.
+Memory consumption went from 138.4 MB to 137.9 MB.
+Total: 3.809800 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.205400 ms MarkObjects: 3.077500 ms  DeleteObjects: 0.222600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006586 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (461.2 KB). Loaded Objects now: 3966.
+Memory consumption went from 135.9 MB to 135.5 MB.
+Total: 2.478000 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.122800 ms MarkObjects: 1.931200 ms  DeleteObjects: 0.226800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5304.373254 seconds.
+  path: Assets/Newbie & Friends/Textures/Boy/Boy_Occlusion.png
+  artifactKey: Guid(e12488545bb45d44ebc9a472cb00e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Boy/Boy_Occlusion.png using Guid(e12488545bb45d44ebc9a472cb00e08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c67eec8dafc6f4ba3b8dfb8a53c4791') in 0.071531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.071474 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_MetallicSmooth.tif
+  artifactKey: Guid(51ada4ba6b76219459e358a510c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_MetallicSmooth.tif using Guid(51ada4ba6b76219459e358a510c009dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3de43f5802a0e6ef31516b2426a989') in 0.020780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Occlusion.tif
+  artifactKey: Guid(49652e51668454a4cbe0ceaeb6ea1f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig01_Occlusion.tif using Guid(49652e51668454a4cbe0ceaeb6ea1f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac08a7a52b0592b090a7ac0b0aaf28ec') in 0.010734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070754 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_MetallicSmooth.tif
+  artifactKey: Guid(8ff898b0b70398349998d5b0b427f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_MetallicSmooth.tif using Guid(8ff898b0b70398349998d5b0b427f060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41aaf3ef8ff4164a891a46a046e7b9e') in 0.009811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Normals.tif
+  artifactKey: Guid(ee3ed04a0e2d4264189d58bbca8dad37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Normals.tif using Guid(ee3ed04a0e2d4264189d58bbca8dad37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0094d0b35790b07c87dac4f5aa28e2') in 0.030004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.103742 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_MetallicSmooth.tif
+  artifactKey: Guid(20fac21436a43494b94c5630fac58fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_MetallicSmooth.tif using Guid(20fac21436a43494b94c5630fac58fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cdd8dd2da8930c1b8133d8a9cca9d0') in 0.009542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022781 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Occlusion.tif
+  artifactKey: Guid(fa8ae44f3435f5b4badb98abcc2516af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffBig03_Occlusion.tif using Guid(fa8ae44f3435f5b4badb98abcc2516af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb1ca9e29b5dda1e95243f68d482691') in 0.010386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035001 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_MetallicSmooth.tif
+  artifactKey: Guid(a1a6d0f9a892bce45ac47ff504a9fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_MetallicSmooth.tif using Guid(a1a6d0f9a892bce45ac47ff504a9fc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427a88c3ee857c44c3ebe8bcd8bd9332') in 0.009252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Occlusion.tif
+  artifactKey: Guid(5585ec5a213a7f743bf6080e2b3d8363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Occlusion.tif using Guid(5585ec5a213a7f743bf6080e2b3d8363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15560cd0c2601c121405708bf1d95ca6') in 0.009633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.164231 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_MetallicSmooth.tif
+  artifactKey: Guid(c8c2d91500919934ea69b0959913741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_MetallicSmooth.tif using Guid(c8c2d91500919934ea69b0959913741b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ef09b3f7ed93bac5f9df4a1f4bae73') in 0.008992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069752 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Occlusion.tif
+  artifactKey: Guid(b92edacc3575bd24eb3eb9d063f7657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Occlusion.tif using Guid(b92edacc3575bd24eb3eb9d063f7657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32eb8441fe7f5e3abd3d11f77daaf82') in 0.010348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005434 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Albedo.tif
+  artifactKey: Guid(1a879096dca909e469b114f433374335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Albedo.tif using Guid(1a879096dca909e469b114f433374335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945e79780509cea4d43f9e8091e6916f') in 0.010922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Occlusion.tif
+  artifactKey: Guid(c3d8bbb565f15e14cbb130e6c549585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge03_Occlusion.tif using Guid(c3d8bbb565f15e14cbb130e6c549585c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5b34444ad27c5d421c748fa57ab21e') in 0.011448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Albedo.tif
+  artifactKey: Guid(43065e33d6a2ab149a4eeb148ef445d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Albedo.tif using Guid(43065e33d6a2ab149a4eeb148ef445d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb51f03ab9a1702175047206597244de') in 0.010975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141656 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Occlusion.tif
+  artifactKey: Guid(8a7d06568a918894daa35f839cbf8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Occlusion.tif using Guid(8a7d06568a918894daa35f839cbf8298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322eea5a025edc091e57023800bec6f9') in 0.009803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.874438 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_MetallicSmooth.tif
+  artifactKey: Guid(97291c21481f446409e5fcb4acd2843e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_MetallicSmooth.tif using Guid(97291c21481f446409e5fcb4acd2843e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afc8a98a2f1e200679cea2ae6a46cd1') in 0.011323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027173 seconds.
+  path: Assets/Newbie & Friends/Textures/Dragon/Dragon_Albedo.png
+  artifactKey: Guid(e9b46955ae43f2a46ae88d7fe7b1471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Dragon/Dragon_Albedo.png using Guid(e9b46955ae43f2a46ae88d7fe7b1471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf41bcd3c9ed670d2fb26ad44ab69fc3') in 0.010093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026967 seconds.
+  path: Assets/Newbie & Friends/Textures/Dragon/Dragon_Occlusion.png
+  artifactKey: Guid(20ce9cf19cb53d94f86d759371d242d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Dragon/Dragon_Occlusion.png using Guid(20ce9cf19cb53d94f86d759371d242d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4654eef2dac4407c6561660e901ac0e') in 0.010565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034176 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Fungus_MetallicSmooth.tif
+  artifactKey: Guid(bb068c9a6283f7c4cbc8bc2174459862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Fungus_MetallicSmooth.tif using Guid(bb068c9a6283f7c4cbc8bc2174459862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046688eb30e49f0acaa3808c2a66f184') in 0.010321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/FungusRed_Albedo.tif
+  artifactKey: Guid(444accc0c3987e04183f4512fe9980cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/FungusRed_Albedo.tif using Guid(444accc0c3987e04183f4512fe9980cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f6708263b77278af7488e77b4f6876') in 0.010580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Fungus_Occlusion.tiff
+  artifactKey: Guid(2f190675ca9c99345ac19136703a8b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Fungus_Occlusion.tiff using Guid(2f190675ca9c99345ac19136703a8b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e6a7a439880c22e4c0a5f82c665a7d') in 0.011402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Albedo.tif
+  artifactKey: Guid(4188a9f5cacb8a54aa76e21640ad6576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Albedo.tif using Guid(4188a9f5cacb8a54aa76e21640ad6576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9610f8dbc14cb2ecc79f86fbc751410c') in 0.011461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Newbie & Friends/Textures/Goblin/Goblin_Albedo.png
+  artifactKey: Guid(2c6381163387eed4592370e40b9eac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Goblin/Goblin_Albedo.png using Guid(2c6381163387eed4592370e40b9eac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee40a9bf26e274a915f924a2b6b46ca') in 0.009170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Newbie & Friends/Textures/Goblin/Goblin_MetallicSmoothness.png
+  artifactKey: Guid(c5dbc49af5d36d74291a9f199aeb6d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Goblin/Goblin_MetallicSmoothness.png using Guid(c5dbc49af5d36d74291a9f199aeb6d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29950800f668fdd1e5635121e28f8c2') in 0.008458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_MetallicSmooth.tif
+  artifactKey: Guid(c0a9eef1ec7fa3e419681b073350a3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_MetallicSmooth.tif using Guid(c0a9eef1ec7fa3e419681b073350a3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55f194186d7bfd73f2233fff7f6765b') in 0.009169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Height.tiff
+  artifactKey: Guid(df60308f4b032f2448fb008b9c3b5164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Height.tiff using Guid(df60308f4b032f2448fb008b9c3b5164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186d61a34be379049e675b31a1af9dbc') in 0.009092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Newbie & Friends/Textures/Ghost/Ghost_Albedo.png
+  artifactKey: Guid(b0f3806088c3a3e409d109f3097d2851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Ghost/Ghost_Albedo.png using Guid(b0f3806088c3a3e409d109f3097d2851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df64866afe1ccff4ea6da8ad4d5efaa8') in 0.009340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041359 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_Height.tiff
+  artifactKey: Guid(a0571dda65de23a4b8823314c5c31110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_Height.tiff using Guid(a0571dda65de23a4b8823314c5c31110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360e6e27c283b8d9d17cc2c53df1e017') in 0.009576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_MetallicSmooth.tif
+  artifactKey: Guid(caac4a165a0cb994ab9940263beb81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_MetallicSmooth.tif using Guid(caac4a165a0cb994ab9940263beb81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93ff2838d39dd98f78d6e13ce793e95') in 0.009068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.864551 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_Height.tiff
+  artifactKey: Guid(8840f0b95fe6e944886557314f2c42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_Height.tiff using Guid(8840f0b95fe6e944886557314f2c42fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa01837cfb2dbea97e225cae32eadd5b') in 0.010006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028871 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_occlusion.tiff
+  artifactKey: Guid(8afea0bc521239642bf311980cc350fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_occlusion.tiff using Guid(8afea0bc521239642bf311980cc350fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cbb0a50b859b3d3377193bc692612a') in 0.010309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029799 seconds.
+  path: Assets/Newbie & Friends/Textures/Hero/Hero_ex.psd
+  artifactKey: Guid(adaa4e928cfbd754bbe00312fa8b4dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Hero/Hero_ex.psd using Guid(adaa4e928cfbd754bbe00312fa8b4dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbe5f6f08cdacb324a07dfd2725f0b6') in 0.012601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Newbie & Friends/Textures/Hero/Hero_MaskMap.png
+  artifactKey: Guid(e0d5862d067489149afd9d847737e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Hero/Hero_MaskMap.png using Guid(e0d5862d067489149afd9d847737e4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1a01406626dc84653ac9379ddc0637') in 0.011072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051962 seconds.
+  path: Assets/Newbie & Friends/Textures/MadFlower/MadFlower_MetallicSmoothness.png
+  artifactKey: Guid(9db95d9fb8488fe4fb84d532d34d4fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/MadFlower/MadFlower_MetallicSmoothness.png using Guid(9db95d9fb8488fe4fb84d532d34d4fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cff909c6f0b60194485b2f0546dbb23') in 0.008586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Occlusion.tif
+  artifactKey: Guid(43cfbc85715a6d443a0ca1cdb47bc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Occlusion.tif using Guid(43cfbc85715a6d443a0ca1cdb47bc9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac93d53a62e82bad5df02f3d9bcf4dc5') in 0.011030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/Moss_Height.tif
+  artifactKey: Guid(1c0d44c4e761653459dbec2e39672ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/Moss_Height.tif using Guid(1c0d44c4e761653459dbec2e39672ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d2ff49ff65f80832b83fe928668135') in 0.010049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Albedo.tif
+  artifactKey: Guid(008a6b98c52009a49999ea04da7a0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_Albedo.tif using Guid(008a6b98c52009a49999ea04da7a0291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76aa06d1e6d5335ce031d7569a4a818') in 0.009553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Newbie & Friends/Textures/MadFlower/MadFlower_Normal.png
+  artifactKey: Guid(a3b777f7eb762d04d923b9734dfad428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/MadFlower/MadFlower_Normal.png using Guid(a3b777f7eb762d04d923b9734dfad428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb1a451b8f865010b58e16ec7e8cccb') in 0.009562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_MetallicSmooth.tif
+  artifactKey: Guid(da127946480dcc645b278cb2f2e43c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Monument01_MetallicSmooth.tif using Guid(da127946480dcc645b278cb2f2e43c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c54be9e3f7788833ee0dcee64dfdc2d') in 0.008695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019754 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/MuddyGround_Albedo.tif
+  artifactKey: Guid(a1e3d76571a1bd041b244add9a3cf433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/MuddyGround_Albedo.tif using Guid(a1e3d76571a1bd041b244add9a3cf433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c09ebb68904ccd40572abd475b79b2') in 0.010195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028275 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/MuddyGround_normal.tif
+  artifactKey: Guid(8966a67eba656384b8870d6cac30864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/MuddyGround_normal.tif using Guid(8966a67eba656384b8870d6cac30864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa747d31423921d42a82a2f6a6a4f6aa') in 0.011050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.587469 seconds.
+  path: Assets/Newbie & Friends/Textures/Princess/Princess_MAT_MaskMap.png
+  artifactKey: Guid(408d7816ae8607d4faead5251d79da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Princess/Princess_MAT_MaskMap.png using Guid(408d7816ae8607d4faead5251d79da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e2268f540cacb79690e83bcdbd2da2') in 0.011756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081508 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Albedo.tif
+  artifactKey: Guid(8a546db20b161bd4c8a7dec7f2cff7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Albedo.tif using Guid(8a546db20b161bd4c8a7dec7f2cff7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3dd8cc999029412c914f427794ae53') in 0.011216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030905 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Normals.tif
+  artifactKey: Guid(7a17f74c2aa7eab4c983462c8a06525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge01_Normals.tif using Guid(7a17f74c2aa7eab4c983462c8a06525e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c784feaaca185da3e658e44b00f746') in 0.010491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046835 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Albedo.tif
+  artifactKey: Guid(8ed88c0615febc044b895e00487dd48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Albedo.tif using Guid(8ed88c0615febc044b895e00487dd48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64aa7d06677516858464e6bff12c312') in 0.009825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034401 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Normals.tif
+  artifactKey: Guid(88f0f8d1227778f41adfd157e5172bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/Ridge02_Normals.tif using Guid(88f0f8d1227778f41adfd157e5172bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3c0d841b4e9d10e9403304495fb78d') in 0.010379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362109 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_MetallicSmooth.tif
+  artifactKey: Guid(3d11d83bd8b085f439b55825349b5120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_MetallicSmooth.tif using Guid(3d11d83bd8b085f439b55825349b5120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab6f64b0094f8f78a42aaecb73e80c2') in 0.010649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Normal.tif
+  artifactKey: Guid(82483b9cec584734dae281c6cd4652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Normal.tif using Guid(82483b9cec584734dae281c6cd4652f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2fb27547189ac753ab2a6a7883cf57') in 0.013416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026671 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_normal.tif
+  artifactKey: Guid(eb1605a43e874444c8ab618296f0ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetail_normal.tif using Guid(eb1605a43e874444c8ab618296f0ab23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1307af9c433a744e8662f505eb603d48') in 0.009900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026675 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetailMedium_Normal.tif
+  artifactKey: Guid(48495040bbd3a49c0915117a7650e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockDetailMedium_Normal.tif using Guid(48495040bbd3a49c0915117a7650e232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd46c78489bb1dbec6c7de6d5c004b01') in 0.011633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Occlusion.tif
+  artifactKey: Guid(018a2778b89a4f5418f00d4ebfb8348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating01_Occlusion.tif using Guid(018a2778b89a4f5418f00d4ebfb8348a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce4ec9eb3d707833a285bed35c71a2a') in 0.010961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Albedo.tif
+  artifactKey: Guid(01947671e84883f4890a9cac2c971c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Albedo.tif using Guid(01947671e84883f4890a9cac2c971c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084785cb80ea7bf98a1bd2f85eb186e2') in 0.012002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031753 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Occlusion.tif
+  artifactKey: Guid(99b1cc1989812524585b277f42e08a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Occlusion.tif using Guid(99b1cc1989812524585b277f42e08a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a320b2945465d92f390e4c04ee90a964') in 0.009234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030610 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_MetallicSmooth.tif
+  artifactKey: Guid(ffea55d3550d0f342a603620ed9aacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_MetallicSmooth.tif using Guid(ffea55d3550d0f342a603620ed9aacd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97850e04c2739d84e64bee95f741cf51') in 0.009734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Occlusion.tif
+  artifactKey: Guid(edec81df06128604db53ddd2dc62b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating03_Occlusion.tif using Guid(edec81df06128604db53ddd2dc62b03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8084b5cc450f37fb246b8ab478579884') in 0.011421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009018 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif
+  artifactKey: Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif using Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b276388ede11f0c2c69b160f1f12f6') in 0.010065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.469025 seconds.
+  path: Assets/Newbie & Friends/Textures/Ghost/Ghost_Occlusion.png
+  artifactKey: Guid(29172fb4184f2f243a93c93e86e04033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Ghost/Ghost_Occlusion.png using Guid(29172fb4184f2f243a93c93e86e04033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7cc11abe9dd04869ddfdc6e78dcfd84') in 0.010136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.634908 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Occlusion.tif
+  artifactKey: Guid(5f0402585ae3c904eae3ccdbbdabf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockFloating04_Occlusion.tif using Guid(5f0402585ae3c904eae3ccdbbdabf71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b57e7519a570b7ce31114ede3f3625') in 0.009583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041325 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_MetallicSmooth.tif
+  artifactKey: Guid(71e719555a5e83f4da18293c27bc6c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge01_MetallicSmooth.tif using Guid(71e719555a5e83f4da18293c27bc6c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf99f9f8dafd98f65fb5f5d07e6d455') in 0.009540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Albedo.tif
+  artifactKey: Guid(7fe8b4b3df4122447bfff666ff947ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Albedo.tif using Guid(7fe8b4b3df4122447bfff666ff947ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e00cdd37e13e0249fa157afd6e221d') in 0.013040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021763 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Occlusion.tif
+  artifactKey: Guid(b76b5eee84abd7642802475d2aaa4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Occlusion.tif using Guid(b76b5eee84abd7642802475d2aaa4441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c191e033b910ac4854945495f69cac') in 0.011150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033772 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_MetallicSmooth.tif
+  artifactKey: Guid(3c4967fe7aa779e4794f40017a7b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_MetallicSmooth.tif using Guid(3c4967fe7aa779e4794f40017a7b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20342c2cb15e6f66e9c33a2f23e14403') in 0.010658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Occlusion.tif
+  artifactKey: Guid(4f81bd676d28d904b9db2093c9caf769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/RockSwamp01_Occlusion.tif using Guid(4f81bd676d28d904b9db2093c9caf769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a17a8a630dc50b7912f610517701171') in 0.008632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112234 seconds.
+  path: Assets/Newbie & Friends/Textures/Skeleton/Skeleton_Normal.png
+  artifactKey: Guid(b70c262afa8e14b4cac0a075e2f9ff97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Skeleton/Skeleton_Normal.png using Guid(b70c262afa8e14b4cac0a075e2f9ff97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55bd245d7e1b686b5d5e66379128fdf') in 0.010996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054345 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/SmallRock_MetallicSmooth.tif
+  artifactKey: Guid(e47910b349e406b4e88af30b6476f331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/SmallRock_MetallicSmooth.tif using Guid(e47910b349e406b4e88af30b6476f331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85363e231fdc8cc2f7b26917f05b6e8') in 0.008966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Newbie & Friends/Textures/Soldier/Soldier_MaskMap.png
+  artifactKey: Guid(d6e19affd12ba284b86dd813b6e2b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Soldier/Soldier_MaskMap.png using Guid(d6e19affd12ba284b86dd813b6e2b3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2dae85bfe93c3af67bdce8ce01c1d62') in 0.011519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Newbie & Friends/Textures/Soldier/Soldier.psd
+  artifactKey: Guid(1e941c1d3e885dd44a5049dc74f6c147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Newbie & Friends/Textures/Soldier/Soldier.psd using Guid(1e941c1d3e885dd44a5049dc74f6c147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9660bb03064e61cb87818ace2ab2c8') in 0.012238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.169238 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/TiledRock_MetallicSmooth.tif
+  artifactKey: Guid(b0c1f790db9e32b46a8a0c19a3e4f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/TiledRock_MetallicSmooth.tif using Guid(b0c1f790db9e32b46a8a0c19a3e4f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0555e63e5579ad5b9477ff7365fc8cc') in 0.011019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/TiledRock_Occlusion.tif
+  artifactKey: Guid(5335e10aa9f7de947bbbee37f963a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Rocks/Textures/TiledRock_Occlusion.tif using Guid(5335e10aa9f7de947bbbee37f963a33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce9c44bb47d7a7ae09586b02c253be2') in 0.009406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077971 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge01_Emission.tif
+  artifactKey: Guid(9dba0e0705ce55c4e87b8653f5e9807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge01_Emission.tif using Guid(9dba0e0705ce55c4e87b8653f5e9807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3b83ca030afdfc4235d674967ef79d') in 0.017587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Emission.tif
+  artifactKey: Guid(8f5f668809cd59d439066dd31ba43c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Emission.tif using Guid(8f5f668809cd59d439066dd31ba43c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926f409cfa7b6a3f3f42877da5e9509b') in 0.010484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge01_Normals.tif
+  artifactKey: Guid(c315734b43305784cb89be8b49e1ec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge01_Normals.tif using Guid(c315734b43305784cb89be8b49e1ec5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af53940b9ef6e7018db440ebfb32f502') in 0.011945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070170 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Normals.tif
+  artifactKey: Guid(ae5ee01c99ce7fd4c888263af297bddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Normals.tif using Guid(ae5ee01c99ce7fd4c888263af297bddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb81a8747919124d716b7c6e3a2b3846') in 0.011315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041327 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Albedo.tif
+  artifactKey: Guid(0eaf75c63225d4845b26dff06e476785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Albedo.tif using Guid(0eaf75c63225d4845b26dff06e476785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b568fbaca51d4d0bf8c7b44571f2fa') in 0.010091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074119 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Normals.tif
+  artifactKey: Guid(aac4e27eb95dea9488b1ad38e4e87ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Normals.tif using Guid(aac4e27eb95dea9488b1ad38e4e87ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04020679b12bd0e19409297d3b0eb90') in 0.012214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076439 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge04_MetallicSmooth.tif
+  artifactKey: Guid(560b9f57c7d3ad74cb6670eef3d161e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge04_MetallicSmooth.tif using Guid(560b9f57c7d3ad74cb6670eef3d161e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d71e01f1f19c6a670b6a3456fb0b21a') in 0.009642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109926 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge04_Occlusion.tif
+  artifactKey: Guid(3bd06947768010043923f62d74333597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge04_Occlusion.tif using Guid(3bd06947768010043923f62d74333597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d2e23abe9101ab3e912a9326ac2391') in 0.010219 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007213 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (437.3 KB). Loaded Objects now: 3974.
+Memory consumption went from 140.3 MB to 139.9 MB.
+Total: 3.129400 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.105200 ms MarkObjects: 2.596100 ms  DeleteObjects: 0.226100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006806 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Hoon\Toon_shader\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (162ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3466 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (437.4 KB). Loaded Objects now: 3977.
+Memory consumption went from 140.3 MB to 139.9 MB.
+Total: 2.237900 ms (FindLiveObjects: 0.196000 ms CreateObjectMapping: 0.107700 ms MarkObjects: 1.709000 ms  DeleteObjects: 0.222900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 135.605508 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Ground/Materials/Moss_Mat.mat
+  artifactKey: Guid(9f1e1e6c36df17a48b610353e7d0bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Ground/Materials/Moss_Mat.mat using Guid(9f1e1e6c36df17a48b610353e7d0bc21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bf5c9934c430529c266a3d05052e6b') in 0.243586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.192289 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/WaterMoss_Albedo.tif
+  artifactKey: Guid(826b6924bcb61d14781258bb7c93dcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Ground/Textures/WaterMoss_Albedo.tif using Guid(826b6924bcb61d14781258bb7c93dcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd187d561f0cb839142928ddaeeb0683b') in 0.016008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.590245 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium02.fbx
+  artifactKey: Guid(518ed587d1152cc45bd20aa8f7b3578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium02.fbx using Guid(518ed587d1152cc45bd20aa8f7b3578e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3d2d0af54d18d0efde78ab1655e71f') in 0.219825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium03.fbx
+  artifactKey: Guid(1bbc79192e08ae0459d75d02d1f45249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium03.fbx using Guid(1bbc79192e08ae0459d75d02d1f45249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caa267cf80ae6913bf93c32b4da95e4') in 0.042761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium04_02.fbx
+  artifactKey: Guid(d6fbdfad7dffcb44182ff67dbe3bdbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium04_02.fbx using Guid(d6fbdfad7dffcb44182ff67dbe3bdbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d2abbac87f219a98cc64886dc179c1') in 0.040110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium02_02.fbx
+  artifactKey: Guid(694d4c8cb17042b469027db61e6a82f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium02_02.fbx using Guid(694d4c8cb17042b469027db61e6a82f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fb6ab9bc628a3f096e0ceaca4bdb63') in 0.037080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.409178 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge02.fbx
+  artifactKey: Guid(f119fa83f1038ac4b833f21a41cae9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge02.fbx using Guid(f119fa83f1038ac4b833f21a41cae9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a7e42a78ca8ce9565618bae437ed9b') in 0.037427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge04.fbx
+  artifactKey: Guid(50b92cf3f08f03745bbc74de550c2dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge04.fbx using Guid(50b92cf3f08f03745bbc74de550c2dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd2e29058d95bf2e9a082f5150921a6') in 0.044595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge03.fbx
+  artifactKey: Guid(963d66c7000d793448bc1424962886ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge03.fbx using Guid(963d66c7000d793448bc1424962886ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93292ce166fc8f970b1b2c7c11099f3b') in 0.041461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge07.fbx
+  artifactKey: Guid(86873b3ddd4a1a548a9d25799c621b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Game Kit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge07.fbx using Guid(86873b3ddd4a1a548a9d25799c621b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd06d04e8f69224cff641f751e451d55') in 0.043330 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
